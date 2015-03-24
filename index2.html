@@ -12,27 +12,31 @@
 <body>
   <nav class="white" role="navigation">
     <div class="container">
-      <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo"><img src="images/logo_1800x1800.png" style="height: 63px; width: 63px;"></a>
+      <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo">
+          <img src="images/logo_1800x1800.png" style="height: 63px; width: 63px;"></a>
       </div>
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center light-blue-text text-darken-2">Take Control over your Cloud</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Deterministic Service Orchestration</h5>
-        </div>
-        <div class="row center">
-          <a href="#mailinglist" id="download-button" class="btn-large waves-effect waves-light light-blue">Join our mailinglist</a>
-        </div>
-        <br><br>
+  <div class="parallax-container"
+       data-parallax="scroll"
+       data-image-src="./images/grid-top.png"
+       data-natural-width="1400"
+       data-natural-height="900"
+       style="height: 350px;"
+       >
 
+      <div class="container">
+          <div class="section">
+              <h1 class="header center light-blue-text text-darken-2">Take Control over your Cloud</h1>
+              <div class="row center">
+                  <h5 class="header col s12 light">Deterministic Service Orchestration</h5>
+              </div>
+          </div>
+          <div class="row center">
+              <a href="#mailinglist" id="download-button" class="btn-large waves-effect waves-light light-blue">Join our mailinglist</a>
+          </div>
       </div>
-    </div>
-    <div class="parallax"><img src="images/background1.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
 
@@ -73,15 +77,21 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
+  <div class="parallax-container"
+       data-parallax="scroll"
+       data-image-src="./images/grid-middle.png"
+       data-natural-width="1400"
+       data-natural-height="900"
+       style="height: 350px;"
+       >
+
       <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">Usecase Agnostic Release Engineering</h5>
-        </div>
+          <div class="section">
+              <div class="row center">
+                  <h5 class="header col s12 light">Usecase Agnostic Release Engineering</h5>
+              </div>
+          </div>
       </div>
-    </div>
-    <div class="parallax"><img src="images/background3.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -109,15 +119,22 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
+  <div class="parallax-container"
+       data-parallax="scroll"
+       data-image-src="./images/grid-bottom.png"
+       data-natural-width="1400"
+       data-natural-height="900"
+       style="height: 350px;"
+       >
+
       <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
+          <div class="section no-pad-bot">
+              <div class="row center">
+                  <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+              </div>
+          </div>
       </div>
-    </div>
-    <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 3"></div>
+      <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer light-blue lighten-1">
@@ -158,8 +175,9 @@
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <!--  <script src="js/materialize.js"></script> -->
   <script src="js/init.js"></script>
 
   </body>
