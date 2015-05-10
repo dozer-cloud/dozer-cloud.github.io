@@ -192,7 +192,7 @@
     <br /><br /><br/><br/>
 
     <!-- BOSH header -->
-    <div class="grid-header" style="background-image: url(./images/inverted-grid.png); background-position: center top; background-size: 2000px; height: 82px;"></div>
+    <!-- <div class="grid-header" style="background-image: url(./images/inverted-grid.png); background-position: center top; background-size: 2000px; height: 82px;"></div>
     <div class="grid-header" style="background-image: url(./images/grid.png); background-position: center bottom; background-size: 2000px">
       <div class="container">
 
@@ -207,39 +207,54 @@
         <br /><br /><br /><br />
 
       </div>
-    </div>
+    </div> -->
     <!-- / BOSH header -->
     
     <!-- BOSH section -->
-    <div class="container">
+    <div class="bosh-section well-material-light-blue-50" style="">
+      <div class="container">
 
-      <br /><br />
+        <br /><br /><br /><br />
 
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <p>
-            <strong>BOSH</strong> is an incredibly powerful Open Source tool that offers a <strong>complete approach</strong> towards operating cloud software. You can use BOSH to deploy and orchestrate any piece of infrastructure. BOSH takes care of lifecycle management on many different levels, as well as automated health monitoring. The main reason BOSH succeeds in doing all this, lies in its <strong>deterministic approach</strong>. BOSH expects every single aspect of your infrastructure to be predetermined in a <em>BOSH release</em>, which is basically a blueprint of your entire infrastructure. This approach produces <strong>consistency</strong> amongst deployments, which in turn provides for a few key benefits:
-          </p>
-          <ul>
-            <li><strong>Cloud agnostic:</strong> BOSH guarantees consistency across deployments, but also does so across clouds. BOSH has Cloud Provider Interfaces (CPI's) for basically any major IaaS out there, including AWS, VMWare and OpenStack. By using BOSH to manage your infrastructure, you're making your deployments portable across IaaS providers! 
-            <li><strong>Health monitoring and recoverability:</strong> BOSH knows exactly in which state everything should be. Therefore it can recover processes and VMS as soon as it notices they've stopped running or have become unresponsive.</li>
-            <li><strong>Friendly towards change:</strong> Since you've already predetermined every single aspect of your infrastructure, the effects future changes might have with regard to your infrastructure become much more clearly visible.</li>
-            <li><strong>Scalability by design:</strong> Scale is just another mode of change. You'll want your infrastructure to perform consistently at any scale. BOSH makes it natural for you to think about scale and any other mode of change in a way that ensures consistency.</li>
-            <li><strong>Instant DevOps:</strong>BOSH has a holistic approach towards systems, bringing development and operations closer together. The demand for consistency requires operators and developers to work closer together to be able to understand properly how changes to an application are going to affect the bigger picture and vice versa.</li>
-          </ul>
+        <div class="row">
+          <div class="col-md-6">
+            <script type="text/javascript" src="https://asciinema.org/a/14.js" id="asciicast-14" async></script>
+          </div>
+          <div class="col-md-6" style="color: #0288d1;">
+            <h2><i class="mdi-action-question-answer"></i> BOSH?</h2>
+            <p>
+              <strong>BOSH</strong> is an incredibly powerful Open Source tool that offers a <strong>complete approach</strong> towards operating cloud software. BOSH can be used to deploy and orchestrate any piece of infrastructure and takes care of lifecycle management and health monitoring on multiple levels. BOSH is <strong>deterministic</strong>. It expects every single aspect of your infrastructure to be predefined in a <em>BOSH release</em>, which is basically a blueprint of your entire infrastructure. This approach produces <strong>consistency</strong> amongst deployments and <strong>anticipates change</strong>. With BOSH, it becomes natural to always take consistency into account when thinking about scale or any other mode of change. BOSH is also <strong>cloud agnostic</strong>. It has Cloud Provider Interfaces (CPI's) for AWS, VMWare and OpenStack, making systems portable across multiple clouds.
+            </p>
+            <br /><br />
+          </div>
 
-          <p>
-            The above should give a basic idea of what makes BOSH such a powerful tool. Also, it should be clear now that using BOSH will affect the way an operator goes about his operations. At Dozer, we believe that those using BOSH will always end up with better designed, more redundant and healthier systems. More info and documentation about BOSH can be found <a>here</a> (More links down below). The easiest way to get started is by using <a>BOSH Lite</a>. Once you're ready for production, check back here and we'll get you started in a minute!
-          </p>
         </div>
-        <div class="col-md-2"></div>
+
+        <br /><br /><br /><br />
+
       </div>
-
-      <br /><br />
-
     </div>
     <!-- / BOSH section -->
+
+    <br /><br /><br /><br />
+
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Dozer for enterprise</h2>
+            <p>
+              Dozer will also have an enterprise offering. Our technology is itself completely packaged as a BOSH release, which will make it relatively easy to setup on premise.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/card.png" style="width: 100%;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
 
     <!-- Footer -->
     <footer class="bs-docs-footer well-material-light-blue-A200" style="color: #ffffff;">
@@ -251,7 +266,7 @@
           <div class="col-md-5">
             <h5>About</h5>
             <p class="small">
-              Dozer is all about onboarding BOSH, the best orchestration and lifecycle management tool for the cloud! Dozer makes BOSH available on-demand and enables you to manage multiple BOSHes with multiple different purposes. Therefore it is truely the multi-cloud solution everyone is looking for!
+              Dozer is all about onboarding BOSH, the best orchestration and lifecycle management tool for the cloud! Dozer makes BOSH available on-demand and enables you to manage multiple BOSHes with multiple different purposes. Therefore it is truly the multi-cloud solution everyone is looking for!
             </p>
           </div>
           <div class="col-md-1"></div>
