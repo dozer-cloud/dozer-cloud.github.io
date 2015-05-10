@@ -32,7 +32,7 @@
     <![endif]-->
   </head>
   <body style="background: #ffffff">
-    
+
     <!-- Fixed Navbar -->
     <div class="navbar navbar-white navbar-fixed-top shadow-z-1">
       <div class="container">
@@ -44,44 +44,58 @@
     <!-- / Fixed Navbar -->
 
     <!-- Header with grid -->
-    <div class="grid-header" style="position: relative; background-image: url(./images/grid.png); background-position: center bottom; background-size: 2000px">
+    <div class="grid-header" style="background-image: url(./images/grid.png); background-position: center bottom; background-size: 2000px">
       <div class="container">
+
+        <br/><br/><br/>
+
         <div class="row">
           <div class="col-md-12 text-center">
-            <br/><br/><br/>
             <div class="mdi-material-light-blue">
               <h1>BOSH as a Service</h1>
             </div>
-            <br /><br/>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 text-center"></div>
+          <div class="col-md-6 text-center">
             <div class="mdi-material-light-blue-700">
               <h3>Get started <em>using</em> the most powerful piece of cloud operating software out there!</h3>
             </div>
-            <br/><br/><br/>
+          </div>
+          <div class="col-md-3 text-center"></div>
+        </div>
+
+        <br/>
+
+        <div class="row">
+          <div class="col-md-12 text-center">
             <div>
               <button class="btn btn-lg btn-raised btn-material-light-blue" style="color: #ffffff;" data-toggle="modal" data-target="#mailinglist-modal" >
                 Join our mailinglist
                 <div class="ripple-wrapper"></div>
               </button>
-              <br/><br/><br/><br/>
+
               <!-- Mailinglist modal -->
               <div id="mailinglist-modal" class="modal text-left" style="height: 332px;">
                 <div class="modal-dialog">
                   <div class="modal-content">
-                    
+
                     <!-- MailChimp Signup Form -->
                     <div id="mc_embed_signup">
                       <form action="https://dozer.us10.list-manage.com/subscribe/post?u=f7916879ecf195c713edef0a4&amp;id=cd86177175" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-horizontal" target="_blank" novalidate>
-                        
+
                         <!-- Modal header -->
                         <div class="modal-header">
                           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                          
+
                           <h4 class="modal-title">
                             Become a Dozer insider
                           </h4>
                         </div>
                         <!-- / Modal header -->
-                        
+
                         <div id="mc_embed_signup_scroll">
                           <fieldset>
 
@@ -94,7 +108,7 @@
                               <br />
 
                               <div class="form-group mc-field-group form-group-material-light-blue">
-                                
+
                                 <label for="mce-EMAIL" class="col-lg-1 control-label">
                                   <i class="mdi-content-mail"></i>
                                 </label>
@@ -112,7 +126,7 @@
                               </div>
                             </div>
                             <!-- / Modal body -->
-                            
+
                             <!-- Modal footer -->
                             <div class="modal-footer">
                               <div class="form-group">
@@ -137,19 +151,23 @@
             </div>
           </div>
         </div>
+
+        <br/><br/><br/><br/><br/>
+
       </div>
     </div>
     <!-- / Header with grid -->
 
     <!-- USP section -->
-    <div id="usps" style="position: relative;">
+    <div id="usps">
+      <br /><br />
       <div class="container">
         <div class="row">
           <div class="col-md-4 text-center">
             <i class="icon-usp mdi-action-settings mdi-material-light-blue-700"></i>
             <h3>Easy setup</h3>
             <p class="text-left">
-              Dozer brings you <strong>the power of BOSH at the click of a button</strong>. We can deploy a fully operational BOSH for you <strong>within 30 seconds</strong>, together with the Cloud Provider Interface (CPI) you need. Getting a new BOSH to deploy a new infrastructure should be a hassle-free experience. With Dozer this is guaranteed.
+              Dozer brings you <strong>the power of BOSH at the click of a button</strong>. We can deploy a fully operational BOSH for you <strong>within 30 seconds</strong>, together with the Cloud Provider Interface (CPI) of your choice. Getting a new BOSH to deploy new infrastructure should be a hassle-free experience. With Dozer this is guaranteed.
             </p>
           </div>
           <div class="col-md-4 text-center">
@@ -170,23 +188,76 @@
       </div>
     </div>
     <!-- / USP section -->
+
+    <br /><br /><br/><br/>
+
+    <!-- BOSH header -->
+    <div class="grid-header" style="background-image: url(./images/inverted-grid.png); background-position: center top; background-size: 2000px; height: 82px;"></div>
+    <div class="grid-header" style="background-image: url(./images/grid.png); background-position: center bottom; background-size: 2000px">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="mdi-material-light-blue">
+              <h2><i class="mdi-action-question-answer"></i> BOSH?</h2>
+            </div>
+          </div>
+        </div>
+
+        <br /><br /><br /><br />
+
+      </div>
+    </div>
+    <!-- / BOSH header -->
     
-    <br/><br/>
+    <!-- BOSH section -->
+    <div class="container">
+
+      <br /><br />
+
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <p>
+            <strong>BOSH</strong> is an incredibly powerful Open Source tool that offers a <strong>complete approach</strong> towards operating cloud software. You can use BOSH to deploy and orchestrate any piece of infrastructure. BOSH takes care of lifecycle management on many different levels, as well as automated health monitoring. The main reason BOSH succeeds in doing all this, lies in its <strong>deterministic approach</strong>. BOSH expects every single aspect of your infrastructure to be predetermined in a <em>BOSH release</em>, which is basically a blueprint of your entire infrastructure. This approach produces <strong>consistency</strong> amongst deployments, which in turn provides for a few key benefits:
+          </p>
+          <ul>
+            <li><strong>Cloud agnostic:</strong> BOSH guarantees consistency across deployments, but also does so across clouds. BOSH has Cloud Provider Interfaces (CPI's) for basically any major IaaS out there, including AWS, VMWare and OpenStack. By using BOSH to manage your infrastructure, you're making your deployments portable across IaaS providers! 
+            <li><strong>Health monitoring and recoverability:</strong> BOSH knows exactly in which state everything should be. Therefore it can recover processes and VMS as soon as it notices they've stopped running or have become unresponsive.</li>
+            <li><strong>Friendly towards change:</strong> Since you've already predetermined every single aspect of your infrastructure, the effects future changes might have with regard to your infrastructure become much more clearly visible.</li>
+            <li><strong>Scalability by design:</strong> Scale is just another mode of change. You'll want your infrastructure to perform consistently at any scale. BOSH makes it natural for you to think about scale and any other mode of change in a way that ensures consistency.</li>
+            <li><strong>Instant DevOps:</strong>BOSH has a holistic approach towards systems, bringing development and operations closer together. The demand for consistency requires operators and developers to work closer together to be able to understand properly how changes to an application are going to affect the bigger picture and vice versa.</li>
+          </ul>
+
+          <p>
+            The above should give a basic idea of what makes BOSH such a powerful tool. Also, it should be clear now that using BOSH will affect the way an operator goes about his operations. At Dozer, we believe that those using BOSH will always end up with better designed, more redundant and healthier systems. More info and documentation about BOSH can be found <a>here</a> (More links down below). The easiest way to get started is by using <a>BOSH Lite</a>. Once you're ready for production, check back here and we'll get you started in a minute!
+          </p>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <br /><br />
+
+    </div>
+    <!-- / BOSH section -->
 
     <!-- Footer -->
     <footer class="bs-docs-footer well-material-light-blue-A200" style="color: #ffffff;">
-      <br />
+
+      <br /><br />
+
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h4>About</h4>
-            <p>
-              Dozer is all about onboarding BOSH, the best cloud orchestration and lifecycle management tool for the cloud! Dozer makes BOSH available on-demand and enables you to manage multiple BOSHes with multiple different purposes. Therefore it is truely the multi-cloud solution everyone is looking for!
+          <div class="col-md-5">
+            <h5>About</h5>
+            <p class="small">
+              Dozer is all about onboarding BOSH, the best orchestration and lifecycle management tool for the cloud! Dozer makes BOSH available on-demand and enables you to manage multiple BOSHes with multiple different purposes. Therefore it is truely the multi-cloud solution everyone is looking for!
             </p>
           </div>
-          <div class="col-md-3">
-            <h4>Contact</h4>
-            <ul class="list-unstyled">
+          <div class="col-md-1"></div>
+          <div class="col-md-2">
+            <h5>Contact</h5>
+            <ul class="list-unstyled small">
               <li>Dozer BV</li>
               <li>Diepvoorde 3104</li>
               <li>6605 GR, Wijchen</li><br/>
@@ -195,26 +266,37 @@
             <p>
             </p>
           </div>
-          <div class="col-md-3">
-            <h4>Connect</h4>
-            <ul class="list-unstyled">
-              <li><a class="white-text" href="https://twitter.com/dozer_io" target="_blank">Twitter</a></li>
-              <li><a class="white-text" href="https://github.com/dozer-cloud" target="_blank">Github</a></li>
-              <li><a class="white-text" href="#!">Linkedin</a></li>
-              <li><a class="white-text" href="https://facebook.com/dozer.io" target="_blank">Facebook</a></li>
+          <div class="col-md-2">
+            <h5>Connect</h5>
+            <ul class="list-unstyled small">
+              <li><a href="https://twitter.com/dozer_io" target="_blank">Twitter</a></li>
+              <li><a href="https://github.com/dozer-cloud" target="_blank">Github</a></li>
+              <li><a href="https://facebook.com/dozer.io" target="_blank">Facebook</a></li>
+            </ul>
+            <p>
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h5>BOSH resources</h5>
+            <ul class="list-unstyled small">
+              <li><a href="https://bosh.io/" target="_blank">Bosh.io</a></li>
+              <li><a href="https://docs.cloudfoundry.org" target="_blank">CloudFoundry docs</a></li>
+              <li><a href="#https://youtube.com/dozer.io/playlists/...." target="_blank">Youtube playlist</a></li>
             </ul>
             <p>
             </p>
           </div>
         </div>
       </div>
-      <br />
+
+      <br /><br />
+
     </footer>
     <!-- / Footer -->
-    <div class="copyright well-material-light-blue-500" style="color: #ffffff; padding:10px 0;">
+    <div class="copyright well-material-light-blue-500" style="color: #ffffff; padding:15px 0;">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 small">
             © Dozer
           </div>
         </div>
@@ -222,10 +304,9 @@
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-
     <script src="js/ripples.min.js"></script>
     <script src="js/material.min.js"></script>
     <script>
