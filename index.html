@@ -22,6 +22,9 @@
         div.navbar-fixed-top { height: 70px;}
       }
       i.icon-usp { font-size: 43px; padding-top: 25px; }
+      p.usp-text {
+        font-size: 16px;
+      }
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -31,7 +34,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body style="background: #ffffff">
+  <body style="background: #ffffff;">
 
     <!-- Fixed Navbar -->
     <div class="navbar navbar-white navbar-fixed-top shadow-z-1">
@@ -72,7 +75,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <div>
-              <button class="btn btn-lg btn-raised btn-material-light-blue" style="color: #ffffff;" data-toggle="modal" data-target="#mailinglist-modal" >
+              <button class="btn btn-lg btn-raised btn-material-light-blue-500" style="color: #ffffff;" data-toggle="modal" data-target="#mailinglist-modal" >
                 Join our mailinglist
                 <div class="ripple-wrapper"></div>
               </button>
@@ -163,25 +166,25 @@
       <br /><br />
       <div class="container">
         <div class="row">
-          <div class="col-md-4 text-center">
+          <div class="col-sm-4 text-center">
             <i class="icon-usp mdi-action-settings mdi-material-light-blue-700"></i>
             <h3>Easy setup</h3>
-            <p class="text-left">
-              Dozer brings you <strong>the power of BOSH at the click of a button</strong>. We can deploy a fully operational BOSH for you <strong>within 30 seconds</strong>, together with the Cloud Provider Interface (CPI) of your choice. Getting a new BOSH to deploy new infrastructure should be a hassle-free experience. With Dozer this is guaranteed.
+            <p class="text-left usp-text">
+              Have a complete BOSH up and running <strong>within 30 seconds</strong>. Simply select a Cloud Provider Interface (CPI) and we'll do the rest!
             </p>
           </div>
-          <div class="col-md-4 text-center">
+          <div class="col-sm-4 text-center">
+            <i class="icon-usp mdi-action-dashboard mdi-material-light-blue-700"></i>
+            <h3>Enhanced BOSH</h3>
+            <p class="text-left usp-text">
+              Power up your BOSH experience with <strong>central user management (Oauth)</strong> and a <strong>GUI for BOSH</strong> that includes <em>VM overviews</em> and <em>task log visualization</em>. 
+            </p>
+          </div>
+          <div class="col-sm-4 text-center">
             <i class="icon-usp mdi-file-cloud-done mdi-material-light-blue-700"></i>
             <h3>Fully managed</h3>
-            <p class="text-left">
-              We believe (cloud) operators should be able to <strong>focus on creating and / or deploying BOSH releases without having to manage yet another distributed system</strong>. Dozer takes care of everything on the BOSH side of things, keeping BOSH, all of its dependencies and the underlying infrastructure running and up to date.
-            </p>
-          </div>
-          <div class="col-md-4 text-center">
-            <i class="icon-usp mdi-action-dashboard mdi-material-light-blue-700"></i>
-            <h3>Enhanced UX</h3>
-            <p class="text-left">
-              Our software comes with a couple of very useful power-ups for BOSH, such as <strong>central user management (Oauth)</strong> and a <strong>GUI for BOSH</strong> including <strong>VM overviews</strong> and <strong>task log visualization</strong> that links tasks to users. Dozer aims to give operators a bird's eye view across all of their BOSH deployments.
+            <p class="text-left usp-text">
+              Focus on creating and deploying BOSH releases. We'll make sure BOSH always remains <strong>running and up to date</strong>.
             </p>
           </div>
         </div>
@@ -209,7 +212,7 @@
       </div>
     </div> -->
     <!-- / BOSH header -->
-    
+
     <!-- BOSH section -->
     <div class="bosh-section well-material-light-blue-50" style="">
       <div class="container">
@@ -217,17 +220,16 @@
         <br /><br /><br /><br />
 
         <div class="row">
-          <div class="col-md-6">
-            <script type="text/javascript" src="https://asciinema.org/a/14.js" id="asciicast-14" async></script>
-          </div>
           <div class="col-md-6" style="color: #0288d1;">
             <h2><i class="mdi-action-question-answer"></i> BOSH?</h2>
             <p>
-              <strong>BOSH</strong> is an incredibly powerful Open Source tool that offers a <strong>complete approach</strong> towards operating cloud software. BOSH can be used to deploy and orchestrate any piece of infrastructure and takes care of lifecycle management and health monitoring on multiple levels. BOSH is <strong>deterministic</strong>. It expects every single aspect of your infrastructure to be predefined in a <em>BOSH release</em>, which is basically a blueprint of your entire infrastructure. This approach produces <strong>consistency</strong> amongst deployments and <strong>anticipates change</strong>. With BOSH, it becomes natural to always take consistency into account when thinking about scale or any other mode of change. BOSH is also <strong>cloud agnostic</strong>. It has Cloud Provider Interfaces (CPI's) for AWS, VMWare and OpenStack, making systems portable across multiple clouds.
+              <strong>BOSH</strong> is a very powerful Open Source tool that offers a <strong>complete approach</strong> towards operating cloud software. It can be used to deploy and orchestrate any piece of infrastructure and takes care of <strong>lifecycle management</strong> and <strong>health monitoring</strong> on multiple levels. By its deterministic nature, BOSH helps taking <strong>consistency</strong> into account when thinking about scale or any other mode of change you might need to facilitate for your system. <a href="http://bosh.io" target="_blank">Learn more...</a>
             </p>
             <br /><br />
           </div>
-
+          <div class="col-md-6" style="height:410px;">
+             <script type="text/javascript" src="https://asciinema.org/a/1yk3o0wc23ja1gvuw7ncby66i.js" id="asciicast-1yk3o0wc23ja1gvuw7ncby66i" async></script>
+          </div>
         </div>
 
         <br /><br /><br /><br />
@@ -241,15 +243,22 @@
     <div>
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h2>Dozer for enterprise</h2>
-            <p>
-              Dozer will also have an enterprise offering. Our technology is itself completely packaged as a BOSH release, which will make it relatively easy to setup on premise.
+          <div class="col-md-3 col-sm-2 col-xs-1"></div>
+          <div class="col-md-6 col-sm-8 col-xs-10 text-center">
+            <img src="images/card.png" style="width: 100%;">
+            <h2>Enterprise</h2>
+            <p class="text-left">
+              Dozer itself is packaged as a BOSH release and therefore easy to setup on premise. For inquiries about our Enterprise offering, please send us an email at enterprise@dozer.io.
             </p>
           </div>
-          <div class="col-md-6">
-            <img src="images/card.png" style="width: 100%;">
+          <div class="col-md-3 col-sm-2 col-xs-1">
           </div>
+        </div>
+        <div class="row text-center" style="padding-top:100px;">
+          <button class="btn btn-lg btn-raised btn-material-light-blue-500" style="color: #ffffff;" data-toggle="modal" data-target="#mailinglist-modal" >
+                Join our mailinglist
+                <div class="ripple-wrapper"></div>
+              </button>
         </div>
       </div>
     </div>
